@@ -276,7 +276,7 @@ serviceAccount:
   annotations: {}
   ## @param serviceAccount.autoMount Auto-mount the service account token in the pod
   ##
-  autoMount: false
+  autoMount: true
 ## @param sidecars Sidecar parameters
 ## e.g:
 ## sidecars:
